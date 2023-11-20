@@ -1,16 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Framework (Tailwind) Exercise 1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CSS Framework (Tailwind) Exercise 1</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
+  <body>
+    <!-- Start coding here -->
+    <div
+      class="bg-slate-200 h-screen w-screen flex justify-center items-center"
+    >
+      <div class="bg-white rounded-xl p-8">
+        <div class="text-zinc-600 text-xl">
+          <h2>Login to Website</h2>
+        </div>
+        <div class="flex justify-between m-2">
+          <div class="text-left">
+            <p>Email</p>
+          </div>
+          <div>
+            <input
+              type="email"
+              class="p-2 border 2 border-zinc-600 hover:border-violet-500 focus:border-violet-300"
+            />
+          </div>
+        </div>
+        <div class="flex justify-between m-2">
+          <div class="text-left">
+            <p>Password</p>
+          </div>
+          <div>
+            <input
+              class="p-2 border 2 border-zinc-600 hover:border-violet-500 focus:border-violet-300"
+              type="password"
+            />
+          </div>
+        </div>
 
-<body>
-  <!-- Start coding here -->
-</body>
-
+        <div>
+          <button
+            class="w-36 p-2 text-white rounded-full bg-violet-500 active:bg-violet-600 hover:bg-violet-400 focus:ring-2 focus:ring-violet-300"
+          >
+            Sign in
+          </button>
+          <button
+            class="w-36 p-2 bg-white hover:bg-violet-100 focus:bg-violet-100 text-violet-600 rounded-full focus:ring-2 focus:ring-violet-300"
+          >
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
