@@ -10,7 +10,50 @@
 </head>
 
 <body>
-  <!-- Start coding here -->
+  <div
+      id="webpage"
+      class="h-screen bg-slate-200 flex justify-center items-center"
+    >
+      <div
+        id="form"
+        class="flex flex-col max-w-xl bg-white rounded-xl p-10 gap-4"
+      >
+        <div id="login-head" class="text-zinc-600 text-xl">
+          Login to Website
+        </div>
+        <label for="email"
+          >Email<span>
+            <input
+              class="border-2 border-zinc-600 p-2 hover:border-violet-500 focus:outline-none focus:border-violet-300 ml-8 rounded-md"
+              id="email"
+              type="text" /></span
+        ></label>
+
+        <label for="password"
+          >Password
+          <span
+            ><input
+              class="border-2 border-zinc-600 p-2 hover:border-violet-500 focus:outline-none focus:border-violet-300 rounded-md"
+              id="password"
+              type="password" /></span
+        ></label>
+
+        <div id="button-sign">
+          <button
+            class="w-36 p-2 bg-violet-600 text-white hover:bg-violet-400 focus:outline-none focus:ring focus:bg-violet-300 rounded-full"
+            type="summit"
+          >
+            Sign in
+          </button>
+          <button
+            class="w-36 p-2 bg-white text-violet-500 hover:bg-violet-100 focus:outline-none focus:bg-violet-300 focus:text-violet-600 rounded-full"
+            type="summit"
+          >
+            Sign up
+          </button>
+        </div>
+      </div>
+    </div>
 </body>
 
 </html>
